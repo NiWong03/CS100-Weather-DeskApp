@@ -123,7 +123,7 @@ Temperature converter: [Converter page](https://github.com/cs100/final-project-s
 
  
  > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
+ > All group members will give a demo to the reader during lab time.Should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
  > Before the demo, you should do the following:
  > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
@@ -143,10 +143,10 @@ Temperature converter: [Converter page](https://github.com/cs100/final-project-s
  > Steps to install and run Skytrack:
 1) https://www.qt.io/download click link to go to qt page and install qt. 
 2) Make account and click link on the left with appropriate device to install qt. 
-3) After installation, open Qt Maintenance tool and set configuratioins to download Qt Creator. 
+3) After installation, open Qt Maintenance tool and set configurations to download Qt Creator. 
 5) After Qt Creator is installed, perform git pull of this repository. 
 7) Open Qt Creator and select open Project, select files for Skytrack. 
 8) Qt Creator has its own ide, therefore the application can be run through Qt instead of the terminal. Select build option on the bottom left corner or right click the project files and clicking run cmake. 
-9) After the project has been buit, run by selecting the run/play icon in the bottom left corner. 
+9) After the project has been built, run by selecting the run/play icon in the bottom left corner. 
  ## Testing
-  In regards to our unit testing, we used QTest to build and create our unit test. Due to error confrontation, we were only able to hard code the unit test.The unit test are the converter.cpp, the api test.cpp and several more.  We were not able to use functions within these tests. In addition, QT has a built in memcheck, when running this memcheck, it gave us no error. But due to not displaying the data, it does not verify it accuratley. 
+  In regards to our unit testing, we used QTest to build and create our unit test. Due to error confrontation, we were only able to hard code the unit test.The unit test are the converter.cpp, the api test.cpp and several more.  We were not able to use functions within these tests. In addition, QT has a built in memcheck, when running this memcheck, it gave us no error. But due to not displaying the data, it does not verify it accurately. 
